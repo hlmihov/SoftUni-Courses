@@ -1,0 +1,5 @@
+number_input = input()
+number_list = list(number_input)
+number_list.sort(reverse=True)
+answer = ''.join(number_list)
+print(int(answer))
